@@ -1,0 +1,575 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:'Poiret One', cursive;
+    font-weight: bolder;
+}
+
+
+/* 
+$fuente-titulo:'Poiret One', cursive;
+$color-titulo:rgb(184, 168, 144);
+$tamaño-titulo: 35px;
+$fuente-parrafo:'Poiret One', cursive;
+$colorfuente-parrafo:rgb(68, 173, 192);
+$fondo1:rgb(192, 240, 243);
+$fondo2: rgb(250, 212, 228);
+$fondo3:rgb(175, 248, 214); */
+
+
+/* Header */
+    
+.navbar{
+   background-image: url(imagenes/fondolineas.jpg); 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-bottom: 40px;
+   border-bottom: groove;
+   border-color: rgb(212, 212, 211);
+}
+
+.navbar-nav{
+    color: rgb(223, 220, 231);
+    text-transform: uppercase;
+}
+
+.nav{ 
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+
+.nav-link{
+    color: rgb(190, 177, 158); 
+    text-decoration: none;
+    background: rgb(250, 196, 227);
+    padding: 8px;
+    border-radius: 10px;
+    margin: 10px;
+}
+ 
+nav a:hover{
+    background-color: rgb(190, 236, 236);
+    color: azure;
+}
+
+
+.navbar-brand{
+    border-radius: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Home */
+
+#carouselExampleDark{
+    margin: 0;
+    border: 20px solid white;
+    text-transform: uppercase;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family:'Poiret One', cursive;
+    
+    
+}
+
+.tituloFotos{
+    font-size: 80px;
+    color: rgb(240, 229, 218);
+    text-align: end;
+    font-weight: bolder;
+    animation-duration: 5s;
+    animation-name: animacion;
+    
+} 
+
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 3;
+    }
+    75%{
+        opacity: 4;
+    }
+    100%{
+        opacity: 5;
+    }
+}
+
+
+
+.textoFotos{
+    font-size: 28px;
+    color: rgb(240, 229, 218);
+    text-align: end;
+    font-weight: bolder;
+  
+    
+}
+
+
+.textoFotos2{
+    font-size: 25px;
+    color: rgb(240, 229, 218);
+    text-align: end;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+#principal{
+    background-color: rgb(175, 248, 214);
+    height: 100%;
+    width: 90%;
+    margin: 80px;
+    margin-left: 90px;
+}
+
+
+#videoInicio{
+    background-color: rgb(175, 248, 214);
+    padding-top: 100px;
+    height: 100%;
+    width: 90%;
+    margin: 80px;
+    margin-left: 90px;
+} 
+
+video{
+    height: 85%;
+    width: 100%;   
+}
+
+
+
+.parrafoVideo{
+    margin-top:10px; 
+    font-family:'Poiret One', cursive;
+    color: rgb(118, 187, 204);
+    font-weight: bolder;
+}
+
+.tituloVideo{
+    margin-top:20px; 
+    text-transform: uppercase;
+    font-family:'Poiret One', cursive;
+    color:rgb(184, 168, 144);
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+
+/* Nuestra historia */    
+
+
+
+h2{
+    font-family:'Poiret One', cursive;
+    font-weight: bolder;
+    font-size: 28px;
+    color: rgb(184, 168, 144);
+    text-align:center;
+    padding: 40px;
+    letter-spacing: 7px;
+    word-spacing: 8px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 50px;
+   
+}
+
+
+
+
+ #nosotros{
+    color: rgb(68, 173, 192);
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-family:'Poiret One', cursive;
+ }
+
+
+ 
+ 
+ #imagenAcercaDe1{
+     padding: 0;
+ }
+ 
+ #imagenAcercaDe2{
+padding: 0;
+ } 
+ 
+ #acercaDe{
+    grid-area: acercaDe;
+    background-color: rgb(250, 212, 228);
+ }
+ 
+ #acercaDe p{
+    text-align: center;
+    margin: 60px;
+    font-size: 100%;
+    line-height: 30px; 
+    font-family:'Poiret One', cursive;
+    font-weight: bold;
+ }
+ 
+ 
+ #titulo{
+    font-family:'Poiret One', cursive;
+    background-color: rgb(175, 248, 214);
+     padding: 10%;
+     margin: 0;
+     text-align:end;
+     color: rgb(255, 255, 255);
+     text-transform:uppercase;
+     font-size: 250%; 
+     font-weight: 900;
+ }
+ 
+ 
+ 
+
+
+
+
+/* Nuestros productos */
+
+
+
+
+  
+  h4{
+      font-size: 25px;
+      color: rgb(68, 173, 192);
+      padding: 60px;
+      text-align: center;
+      text-transform: uppercase;
+      font-family:'Poiret One', cursive; 
+  }
+  
+  p{
+      font-size: 19px;
+      margin-bottom: 20px;
+      margin: 40px;
+      font-family:'Poiret One', cursive;
+  }
+  
+
+  
+
+  #container{
+    
+  padding: 70px;
+  color: rgb(68, 173, 192);
+  font-family:'Poiret One', cursive;
+  font-weight: bolder;
+  } 
+  
+#imagenProducto{
+    padding: 0;
+}
+  
+  #vinchaAntonia{
+
+      background-color:rgb(248, 215, 202);
+  }
+  
+   
+  #vinchaNina{
+      
+      background-color:rgb(221, 243, 250);
+  }
+  
+ 
+  
+  #vinchaOlivia{
+      background-color:rgb(248, 215, 202);  
+  }
+  
+  
+  
+ #gomitasIndia{
+      background-color:rgb(221, 243, 250);
+  }
+  
+
+
+
+/* Personaliza tus productos */
+
+.tituloPersonaliza{
+    margin-top: 0px ;
+}
+
+
+form{  
+    font-weight: bolder;
+    color: rgb(100, 85, 71); 
+    background-image:linear-gradient(rgb(192, 240, 243),rgb(243, 230, 212));
+    border: 3px;
+    width: 85%;
+    height: 700px;
+    padding: 40px;
+    margin-left: 100px;  
+    margin-bottom: 50px;
+    margin-top: 70px;
+    border-top-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    text-align: left;
+}/* tambien aplica a formulario de contactos */
+
+
+h5{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    margin: 40px;
+   
+}
+
+h5 a{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: rgb(218, 143, 143);
+    text-decoration: none;
+    font-size: 30px;
+    
+    
+}
+
+
+
+.personalizaProducto{
+    display:block;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+label{
+    color: rgb(68, 173, 192);
+}
+
+
+
+/* Contacto */
+
+
+fieldset{
+    font-family:'Poiret One', cursive;
+    font-weight: bold;
+    color:rgb(184, 168, 144) ;
+    width: 95%;
+    height: 750px;
+    padding: 0;
+    border-style: dotted;
+    border-radius:30px;
+    margin-top: 50px;
+    margin-left: 100px; 
+    margin-bottom: 90px;
+   
+}
+
+legend{
+    margin-left: 200px;
+}
+
+
+.formularioContacto{
+    font-weight: bold;
+    color: rgb(100, 85, 71); 
+    background-image: linear-gradient(rgb(250, 212, 228),rgb(243, 230, 212)) ;
+    width: 88%;
+    height: 630px;
+    padding: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-top-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+}
+
+
+select{
+    margin-top: 30px;
+}
+
+
+
+/* seleccion de colores */
+
+
+
+
+main{
+ text-align: center;
+ font-family:'Poiret One', cursive;
+ color:rgb(184, 168, 144);
+}
+
+.imagenAgranda{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: 70px;
+    border-radius: 40px;
+}
+
+.imagenAgranda:hover{
+    transform: scale(1.5);
+}
+
+
+.negrita{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+main ul details{
+font-size: 16px;
+font-weight: bolder;
+color: rgb(68, 173, 192);
+margin-left: 110px;
+margin-bottom: 25px;
+}
+
+.detallesUno{
+    margin-top: 20px;
+    margin-left: 480px;
+    width: 200px;
+    height: 60px;
+    transition: 3s;
+}
+
+.detallesUno:hover{
+    width: 400px;
+    height: 100px;
+    background-color:rgb(212, 184, 203) ;
+}
+
+.detallesDos{
+    margin-top: 20px;
+    margin-left: 480px;
+    width: 200px;
+    height: 60px;
+    transition: 3s;
+}
+
+.detallesDos:hover{
+    width: 400px;
+    height: 100px;
+    background-color:rgb(212, 184, 203) ;
+}
+
+.detallesTres{
+    margin-top: 20px;
+    margin-left: 480px;
+    width: 200px;
+    height: 60px;
+    transition: 3s;
+}
+
+.detallesTres:hover{
+    width: 400px;
+    height: 100px;
+    background-color:rgb(212, 184, 203) ;
+}
+
+
+
+.seleccionColor{
+    padding: 20px;
+    background-color: rgb(192, 240, 243);
+    border-top-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    margin: 80px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+/* --------------Footer -----------------*/
+ 
+h3{ 
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px; 
+    color: rgb(107, 97, 85);
+    margin-top: 30px; 
+    margin-left: 30px; 
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    padding: 30px;
+    text-align-last: center;
+}
+
+footer{
+    font-family:'Poiret One', cursive;
+    font-style:unset;
+    background-color: rgb(224, 203, 183);
+    border: 2px;
+    margin-top: 30px;
+    border-radius: 10px; 
+    padding: 5px;
+    margin:3px ;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+
+footer ul li {
+    font-size: 17px;
+    font-weight: bold;
+    color:rgb(109, 103, 91);
+    text-align-last: left;
+    margin-top: 5px;
+}
+
+footer ul li a {
+    color:rgb(109, 103, 91);
+    text-decoration: none;
+}  
+
+
+.enlacesContacto{
+    margin: 0px;
+    margin-top: 5px; 
+} 
+
+
