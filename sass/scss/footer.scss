@@ -1,0 +1,62 @@
+
+footer{
+    font-family:'Poiret One', cursive;
+    font-style:unset;
+    background-color: rgb(224, 203, 183);
+    border: 2px;
+    margin-top: 30px;
+    border-radius: 10px; 
+    padding: 5px;
+    margin:3px ;
+
+    h3{ 
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 20px; 
+        color: rgb(107, 97, 85);
+        margin-top: 30px; 
+        margin-left: 30px; 
+        margin-bottom: 15px;
+        letter-spacing: 3px;
+        word-spacing: 4px;
+        padding: 30px;
+        text-align-last: center;
+    }
+
+    ul{
+        list-style-type: none;
+
+        li {
+            font-size: 17px;
+            font-weight: bold;
+            color:rgb(109, 103, 91);
+            text-align-last: left;
+            margin-top: 5px;
+
+            a {
+                color:rgb(109, 103, 91);
+                text-decoration: none;
+            }  
+
+            .enlacesContacto{
+                margin: 0px;
+                margin-top: 5px; 
+            } 
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -35,11 +35,11 @@ $fondo3:rgb(175, 248, 214); */
     text-transform: uppercase;
 }
 
-.nav{ 
+/* .nav{ 
     font-size: 18px;
     line-height: 20px;
     
-}
+} */
 
 .nav-link{
     color: rgb(190, 177, 158); 
@@ -73,11 +73,11 @@ nav a:hover{
 
 /* Home */
 
-#carouselExampleDark{
+/* #carouselExampleDark{
     margin: 0;
     border: 20px solid white;
     text-transform: uppercase;
-    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
     font-family:'Poiret One', cursive;
     
     
@@ -179,7 +179,7 @@ video{
 
 
 
-
+ */
 
 
 
@@ -187,7 +187,7 @@ video{
 
 
 
-h2{
+/* h2{
     font-family:'Poiret One', cursive;
     font-weight: bolder;
     font-size: 28px;
@@ -252,7 +252,7 @@ padding: 0;
  
  
  
-
+ */
 
 
 
@@ -262,7 +262,7 @@ padding: 0;
 
 
   
-  h4{
+ /*  h4{
       font-size: 25px;
       color: rgb(68, 173, 192);
       padding: 60px;
@@ -317,11 +317,11 @@ padding: 0;
   }
   
 
-
+ */
 
 /* Personaliza tus productos */
 
-.tituloPersonaliza{
+/* .tituloPersonaliza{
     margin-top: 0px ;
 }
 
@@ -343,7 +343,7 @@ form{
 }/* tambien aplica a formulario de contactos */
 
 
-h5{
+/* h5{
     margin-top: 40px;
     margin-bottom: 50px;
     font-weight: bolder;
@@ -372,14 +372,14 @@ h5 a{
 
 label{
     color: rgb(68, 173, 192);
-}
+}  */
 
 
 
 /* Contacto */
 
 
-fieldset{
+/* fieldset{
     font-family:'Poiret One', cursive;
     font-weight: bold;
     color:rgb(184, 168, 144) ;
@@ -418,7 +418,7 @@ select{
     margin-top: 30px;
 }
 
-
+ */
 
 /* seleccion de colores */
 

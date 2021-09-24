@@ -1,0 +1,108 @@
+#carouselExampleDark{
+    /* margin: 0; */
+ /*    border-top: 0;
+    border: 20px solid white; */
+    text-transform: uppercase;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family:'Poiret One', cursive;
+
+    .tituloFotos{
+        font-size: 80px;
+        color: rgb(240, 229, 218);
+        text-align: end;
+        font-weight: bolder;
+        animation-duration: 5s;
+        animation-name: animacion;
+
+        @keyframes animacion {
+            0% {
+                opacity: 0;
+            }
+            50%{
+                opacity: 3;
+            }
+            75%{
+                opacity: 4;
+            }
+            100%{
+                opacity: 5;
+            }
+        }
+           
+    } 
+  
+    .textoFotos{
+        font-size: 28px;
+        color: rgb(240, 229, 218);
+        text-align: end;
+        font-weight: bolder;   
+    }
+
+    .textoFotos2{
+        font-size: 25px;
+        color: rgb(240, 229, 218);
+        text-align: end;
+        margin-bottom: 40px;
+        font-weight: bolder;
+    }
+ 
+}
+
+
+
+
+
+
+#principal{
+    background-color: rgb(175, 248, 214);
+    height: 100%;
+    width: 90%;
+    margin: 80px;
+    margin-left: 70px;
+
+    
+#videoInicio{
+    background-color: rgb(175, 248, 214);
+    padding-top: 100px;
+    height: 100%;
+    width: 90%;
+    margin: 80px;
+    margin-left: 90px;
+
+    
+video{
+    height: 85%;
+    width: 100%;   
+}
+
+
+.tituloVideo{
+    margin-top:20px; 
+    text-transform: uppercase;
+    font-family:'Poiret One', cursive;
+    color:rgb(184, 168, 144);
+    font-weight: bolder;
+}
+
+.parrafoVideo{
+    margin-top:10px; 
+    font-family:'Poiret One', cursive;
+    color: rgb(118, 187, 204);
+    font-weight: bolder;
+}
+} 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

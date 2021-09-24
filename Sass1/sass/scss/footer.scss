@@ -1,0 +1,56 @@
+.footer{
+    font-family: 'Josefin Slab', serif;
+    font-style:unset;
+    background-color: rgb(224, 203, 183);
+    border: 2px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: rgb(192, 174, 157) ;
+    border-radius: 10px; 
+    padding: 5px;
+    margin:3px ;
+}
+
+
+.footer__titulo{ 
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px; 
+    color: rgb(107, 97, 85);
+    margin-top: 30px; 
+    margin-left: 30px; 
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    text-align-last: center;
+}
+
+.footer__ul{
+    list-style-type: none;
+    
+}
+
+
+
+.footer__ul__contacto {
+    font-size: 17px;
+    font-weight: bold;
+    color:rgb(109, 103, 91);
+    text-align-last: left;
+    margin-top: 5px;
+    
+}
+
+.footer__ul__contacto__a {
+    color:rgb(109, 103, 91);
+    text-decoration: none;
+}  
+
+
+.footer__ul__contacto__enlacesContacto {
+    margin: 0px;
+    margin-top: 5px; 
+    
+}
+
+

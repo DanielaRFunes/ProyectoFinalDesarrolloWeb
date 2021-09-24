@@ -1,0 +1,42 @@
+fieldset{
+    font-family:'Poiret One', cursive;
+    font-weight: bold;
+    color:rgb(184, 168, 144) ;
+    width: 95%;
+    height: 750px;
+    padding: 0;
+    border-style: dotted;
+    border-radius:30px;
+    margin-top: 50px;
+    margin-left: 100px; 
+    margin-bottom: 90px;
+
+    legend{
+        margin-left: 200px;
+    }
+
+    .formularioContacto{
+        font-weight: bold;
+        color: rgb(100, 85, 71); 
+        background-image: linear-gradient(rgb(250, 212, 228),rgb(243, 230, 212)) ;
+        width: 88%;
+        height: 630px;
+        padding: 40px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border-top-left-radius: 110px;
+        border-bottom-right-radius: 110px;
+    }
+
+    select{
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+
