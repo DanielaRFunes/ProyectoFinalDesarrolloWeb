@@ -4,12 +4,13 @@
 }
 
 .body {
-  font-family: "Josefin Slab", serif;
+  /* font-family: 'Josefin Slab', serif; */
+  font-family: "Poiret One", cursive;
   background-color: white;
 }
 
 .navbar {
-  background-image: url(../Imagenes/fondolineas.jpg);
+  background-image: url(../../Imagenes/fondolineas.jpg);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-bottom: groove;
   border-color: #d4d4d3;
@@ -257,6 +258,7 @@ h4 {
 }
 
 form {
+  font-family: "Poiret One", cursive;
   font-weight: bolder;
   color: #645547;
   background-image: linear-gradient(#c0f0f3, #f3e6d4);
@@ -272,6 +274,7 @@ form {
   text-align: left;
 }
 form h5 {
+  font-family: "Poiret One", cursive;
   margin-top: 40px;
   margin-bottom: 50px;
   font-weight: bolder;
