@@ -352,7 +352,7 @@ fieldset select {
   margin: 70px;
   border-radius: 40px;
 }
-.seleccionColor main :hover {
+.seleccionColor main .imagenAgranda :hover {
   transform: scale(1.5);
 }
 .seleccionColor .negrita {
