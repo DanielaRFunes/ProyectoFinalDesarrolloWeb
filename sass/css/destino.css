@@ -355,49 +355,49 @@ fieldset select {
 .seleccionColor main .imagenAgranda :hover {
   transform: scale(1.5);
 }
-.seleccionColor .negrita {
+.seleccionColor main .negrita {
   font-weight: bolder;
   font-size: 20px;
 }
-.seleccionColor details {
+.seleccionColor main details {
   font-size: 16px;
   font-weight: bolder;
   color: #44adc0;
   margin-left: 110px;
   margin-bottom: 25px;
 }
-.seleccionColor details .detallesUno {
+.seleccionColor main details .detallesUno {
   margin-top: 20px;
   margin-left: 480px;
   width: 200px;
   height: 60px;
   transition: 3s;
 }
-.seleccionColor details .detallesUno :hover {
+.seleccionColor main details .detallesUno :hover {
   width: 400px;
   height: 100px;
   background-color: #d4b8cb;
 }
-.seleccionColor details .detallesDos {
+.seleccionColor main details .detallesDos {
   margin-top: 20px;
   margin-left: 480px;
   width: 200px;
   height: 60px;
   transition: 3s;
 }
-.seleccionColor details .detallesDos :hover {
+.seleccionColor main details .detallesDos :hover {
   width: 400px;
   height: 100px;
   background-color: #d4b8cb;
 }
-.seleccionColor details .detallesTres {
+.seleccionColor main details .detallesTres {
   margin-top: 20px;
   margin-left: 480px;
   width: 200px;
   height: 60px;
   transition: 3s;
 }
-.seleccionColor details .detallesTres :hover {
+.seleccionColor main details .detallesTres :hover {
   width: 400px;
   height: 100px;
   background-color: #d4b8cb;
