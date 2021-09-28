@@ -36,9 +36,6 @@
 }
 
 #carouselExampleDark {
-  /* margin: 0; */
-  /*    border-top: 0;
-     border: 20px solid white; */
   text-transform: uppercase;
   /* font-family: 'Quicksand', sans-serif; */
   font-family: "Poiret One", cursive;
@@ -299,6 +296,43 @@ form label .personalizaProducto {
 }
 
 /* tambien aplica a formulario de contactos */
+.imagenesPersonaliza {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 500px;
+  margin: 20px;
+  margin-bottom: 80px;
+  margin-top: 150px;
+}
+.imagenesPersonaliza .contenedorLetras, .imagenesPersonaliza .contenedorLetrasDos {
+  display: inline;
+  width: 20%;
+  height: 500px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #aff8d6;
+}
+.imagenesPersonaliza .contenedorLetras .vosElegis, .imagenesPersonaliza .contenedorLetrasDos .vosElegis, .imagenesPersonaliza .contenedorLetrasDos .nosotrasLoHacemos {
+  font-size: 40px;
+  font-family: "Poiret One", cursive;
+  text-transform: uppercase;
+  color: #b8a890;
+  line-height: 80px;
+  align-items: flex-end;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40%;
+}
+.imagenesPersonaliza .imagenUnoPersonaliza, .imagenesPersonaliza .imagenTresPersonaliza {
+  display: inline;
+  width: 33%;
+  height: 500px;
+}
+.imagenesPersonaliza .contenedorLetrasDos {
+  background-color: #fad4e4;
+}
 fieldset {
   font-family: "Poiret One", cursive;
   font-weight: bold;
