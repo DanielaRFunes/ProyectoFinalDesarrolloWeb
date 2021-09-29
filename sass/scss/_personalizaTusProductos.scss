@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-@import "_variables.scss";
-=======
->>>>>>> 522b27dc71395f55dee7fab7697e3aba067d62b5
-
 
 .tituloPersonaliza{
     margin-top: 0px ;
@@ -53,85 +48,7 @@ form{
             
         }  
             
-<<<<<<< HEAD
-}/* tambien aplica a formulario de contactos */
-
-
-.imagenesPersonaliza{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    height: 500px;
-    margin: 20px;
-    margin-bottom: 80px;
-    margin-top: 150px;
-  
- 
-    .contenedorLetras{
-       display: inline;
-       width: 20%;
-       height: 500px;
-       margin-top: 0; 
-       margin-bottom: 0;
-       background-color: $fondo3;
- 
- 
-     .vosElegis{
-         font-size: 40px;
-         font-family: $fuente-titulo;
-         text-transform: uppercase;
-         color:$color-titulo;
-         line-height: 80px;
-         align-items: flex-end;
-         text-align: center;
-         padding-left: 20px;
-         padding-right: 20px;
-         margin-top: 40%;
-         
-  
-     }
-    }
- 
- 
-    
-    .imagenUnoPersonaliza{
-        display: inline;
-        width: 33%;
-        height: 500px;
-       
-    }
- 
- 
-    .contenedorLetrasDos{
-        @extend .contenedorLetras;
-        background-color: $fondo2;
- 
- 
-     .nosotrasLoHacemos{
-         @extend .vosElegis;
-         
-     }
-    }
- 
- 
-    .imagenTresPersonaliza{
-       @extend .imagenUnoPersonaliza;
-      
-    }
- }
- 
-
-
-
-
-
-
-
-
-
-=======
 }
->>>>>>> 522b27dc71395f55dee7fab7697e3aba067d62b5
 
 
 
