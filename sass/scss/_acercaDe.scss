@@ -1,10 +1,10 @@
-
+@import "_variables";
 
     h2{
         font-family:'Poiret One', cursive;
         font-weight: bolder;
         font-size: 28px;
-        color: rgb(184, 168, 144);
+        color: $color-titulo;
         text-align:center;
         padding: 40px;
         letter-spacing: 7px;
@@ -15,14 +15,14 @@
     }
 
         #nosotros{
-            color: rgb(68, 173, 192);
+            color: $colorfuente-parrafo;
             padding-top: 50px;
             padding-bottom: 100px;
             font-family:'Poiret One', cursive;
 
             #titulo{
                 font-family:'Poiret One', cursive;
-                background-color: rgb(175, 248, 214);
+                background-color: $fondo3;
                  padding: 10%;
                  margin: 0;
                  text-align:end;
@@ -42,7 +42,7 @@
             
             #acercaDe{
                grid-area: acercaDe;
-               background-color: rgb(250, 212, 228);
+               background-color: $fondo2;
             }
             
             p{

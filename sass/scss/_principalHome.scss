@@ -1,7 +1,9 @@
+@import "_variables.scss";
+
 #carouselExampleDark{
-    text-transform: uppercase;
-    /* font-family: 'Quicksand', sans-serif; */
+    text-transform: uppercase; 
     font-family:'Poiret One', cursive;
+    
    
 
     .tituloFotos{
@@ -85,7 +87,7 @@ video{
 .parrafoVideo{
     margin-top:10px; 
     font-family:'Poiret One', cursive;
-    color: rgb(118, 187, 204);
+    color: $colorfuente-parrafo;
     font-weight: bolder;
 }
 } 

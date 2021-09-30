@@ -1,6 +1,8 @@
+@import "_variables.scss";
+
 h4{
     font-size: 25px;
-    color: rgb(68, 173, 192);
+    color: $color-titulo;
     padding: 60px;
     text-align: center;
     text-transform: uppercase;
@@ -10,7 +12,7 @@ h4{
 #container{
   
     padding: 70px;
-    color: rgb(68, 173, 192);
+    color: $colorfuente-parrafo;
     font-family:'Poiret One', cursive;
     font-weight: bolder;
 
@@ -20,7 +22,7 @@ h4{
 
       #vinchaAntonia{
 
-        background-color:rgb(248, 215, 202);
+        background-color: $fondo2;
 
         p{
             font-size: 19px;
@@ -32,14 +34,21 @@ h4{
 
     #vinchaNina{
     
-        background-color:rgb(221, 243, 250);
+        background-color: $fondo1 ;
+
+        p{
+            font-size: 19px;
+            margin-bottom: 20px;
+            margin: 40px;
+            font-family:'Poiret One', cursive;
+        }
 
         
     }
 
     
 #vinchaOlivia{
-    background-color:rgb(248, 215, 202);
+    background-color: $fondo2 ;
     
     p{
         font-size: 19px;
@@ -52,7 +61,7 @@ h4{
 
 
 #gomitasIndia{
-    background-color:rgb(221, 243, 250);
+    background-color: $fondo1 ;
 
     p{
         font-size: 19px;
@@ -64,6 +73,63 @@ h4{
 
     }
 
+
+    #sale{
+        margin-top: 150px;
+        height: 400px;
+        width: 100%;
+        background-color: rgb(207, 196, 181);
+        text-align: end;
+
+        a{
+            font-family: 'News Cycle', sans-serif;
+            text-shadow: 3px 3px 1px #b9aea5d9;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 160px;
+            color: white;
+            padding: 210px;
+        }
+        }
+        
+        
+        
+    
+      .comerciosAdheridos{
+          padding: 30px;
+          background-color: $fondo3;
+          margin-top: 100px;
+          margin-bottom: 100px;
+
+          ul{
+            list-style:outside;
+            list-style-position: inside;
+
+
+            .comerciosAdheridosTitulo{
+                font-family: 'Poiret One', cursive;
+                color: $color-titulo;
+        
+            }
+
+            li{
+                font-family: $fuente-titulo;
+                font-size: 18px;
+                color: $colorfuente-parrafo;
+                font-weight: bolder;
+                margin: 12px;
+                  
+            }   
+        }
+          
+      }
+    
+      
+    
+   
+      
+    
+   
 
 
 
