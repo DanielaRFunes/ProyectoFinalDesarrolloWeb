@@ -3,7 +3,10 @@
 
 
 .tituloPersonaliza{
-    margin-top: 0px ;
+    font-family: 'Syncopate', sans-serif;
+    letter-spacing: 15px;
+    padding: 40px;
+    margin-bottom: 10%;
 }
 
 
@@ -23,44 +26,24 @@
 
 form{  
     font-family:'Poiret One', cursive;
-    font-weight: bolder;
-    color: rgb(100, 85, 71); 
-    background-image:linear-gradient(rgb(192, 240, 243),rgb(243, 230, 212)); 
+    background-color: $fondo3;
     height: 100%;
     padding: 0px; 
     text-align: center;
 
-    h5{
-        font-family:'Poiret One', cursive;
-        margin-top: 30px;
-        margin-bottom: 40px;
-        font-weight: bolder;
-        margin: 40px;
-       
-        a{
-            margin-top: 20px;
-            margin-left: 30px;
-            color: rgb(218, 143, 143);
-            text-decoration: none;
-            font-size: 30px;
-
-          /*   :hover{
-                color: azure;
-            } */
-        }
     }
 
    
         label{
             display:block;
-            color: rgb(68, 173, 192); 
+            color:$colorfuente-parrafo; 
             font-size: 20px;
-            margin-top: 10px;
+            margin-top: 30px;
             margin-bottom: 10px;
          
 
             .personalizaProducto{ 
-                margin-top: 35px; 
+                margin-top: 55px; 
             }  
             
         }  
@@ -70,60 +53,56 @@ form{
             
 }
 }
-}
+
+
+
+
 
 .imagenesPersonaliza{
-    height: 10%;
-    width: 100%;
-     margin: 20px; 
-    margin-bottom: 80px;
-    margin-top: 150px;
+    height: 40%;
+    margin-top: 20%; 
+    margin-bottom: 20%;
   
  
     .contenedorLetras{
-       width: 20%;
-       height: 500px;
-       margin-top: 0; 
-       margin-bottom: 0;
-       background-color: $fondo3;
+       background-color:white;
+       padding: 0;
+        
  
  
      .vosElegis{
-         font-size: 200%;
+         font-size: 300%;
          font-family: $fuente-titulo;
          text-transform: uppercase;
          color:$color-titulo;
          line-height: 80px;
+         letter-spacing: 25px;
          align-items: flex-end;
          text-align: center;
          padding-left: 5%;
          padding-right: 5%;
          margin-top: 40%;
-         
-  
-     }
     }
+}
     
  
     
     .imagenUnoPersonaliza{
-        width: 30%;
-        height: 500px;
-    
-       
+        padding: 0;  
     }
  
  
     .contenedorLetrasDos{
         @extend .contenedorLetras;
-        background-color: $fondo2;
+        background-color: $fondo2; 
  
  
      .nosotrasLoHacemos{
          @extend .vosElegis;
+         margin-top: 10%;
          
      }
-    }
+    } 
  
  
     .imagenTresPersonaliza{

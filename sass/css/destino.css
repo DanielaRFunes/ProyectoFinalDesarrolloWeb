@@ -77,7 +77,8 @@
 }
 
 #principal {
-  margin-top: 300px;
+  margin-top: 20%;
+  margin-bottom: 20%;
   background-color: #aff8d6;
 }
 #principal #videoInicio {
@@ -85,7 +86,7 @@
   margin-bottom: 100px;
 }
 #principal #videoInicio video {
-  transform: translate(-40px, -110px);
+  transform: translate(-10%, -30%);
 }
 #principal #videoInicio #textoVideo {
   background-color: #aff8d6;
@@ -189,17 +190,16 @@
 }
 
 h2 {
-  font-family: "Poiret One", cursive;
+  font-family: "Syncopate", sans-serif;
   font-weight: bolder;
   font-size: 28px;
   color: #b8a890;
   text-align: center;
   padding: 40px;
-  letter-spacing: 7px;
-  word-spacing: 8px;
+  letter-spacing: 15px;
   text-transform: uppercase;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 #nosotros {
@@ -337,7 +337,10 @@ h2 {
 }
 
 .tituloPersonaliza {
-  margin-top: 0px;
+  font-family: "Syncopate", sans-serif;
+  letter-spacing: 15px;
+  padding: 40px;
+  margin-bottom: 10%;
 }
 
 .formularioPersonaliza {
@@ -352,64 +355,41 @@ h2 {
 }
 .formularioPersonaliza .rowPersonaliza form {
   font-family: "Poiret One", cursive;
-  font-weight: bolder;
-  color: #645547;
-  background-image: linear-gradient(#c0f0f3, #f3e6d4);
+  background-color: #aff8d6;
   height: 100%;
   padding: 0px;
   text-align: center;
 }
-.formularioPersonaliza .rowPersonaliza form h5 {
-  font-family: "Poiret One", cursive;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  font-weight: bolder;
-  margin: 40px;
-}
-.formularioPersonaliza .rowPersonaliza form h5 a {
-  margin-top: 20px;
-  margin-left: 30px;
-  color: #da8f8f;
-  text-decoration: none;
-  font-size: 30px;
-  /*   :hover{
-        color: azure;
-    } */
-}
-.formularioPersonaliza .rowPersonaliza form label {
+.formularioPersonaliza .rowPersonaliza label {
   display: block;
-  color: #44adc0;
+  color: #b4b0ab;
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
-.formularioPersonaliza .rowPersonaliza form label .personalizaProducto {
-  margin-top: 35px;
+.formularioPersonaliza .rowPersonaliza label .personalizaProducto {
+  margin-top: 55px;
 }
-.formularioPersonaliza .rowPersonaliza form button {
+.formularioPersonaliza .rowPersonaliza button {
   margin-bottom: 25px;
 }
 
 .imagenesPersonaliza {
-  height: 10%;
-  width: 100%;
-  margin: 20px;
-  margin-bottom: 80px;
-  margin-top: 150px;
+  height: 40%;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 .imagenesPersonaliza .contenedorLetras, .imagenesPersonaliza .contenedorLetrasDos {
-  width: 20%;
-  height: 500px;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: #aff8d6;
+  background-color: white;
+  padding: 0;
 }
 .imagenesPersonaliza .contenedorLetras .vosElegis, .imagenesPersonaliza .contenedorLetrasDos .vosElegis, .imagenesPersonaliza .contenedorLetrasDos .nosotrasLoHacemos {
-  font-size: 200%;
+  font-size: 300%;
   font-family: "Poiret One", cursive;
   text-transform: uppercase;
   color: #b8a890;
   line-height: 80px;
+  letter-spacing: 25px;
   align-items: flex-end;
   text-align: center;
   padding-left: 5%;
@@ -417,11 +397,13 @@ h2 {
   margin-top: 40%;
 }
 .imagenesPersonaliza .imagenUnoPersonaliza, .imagenesPersonaliza .imagenTresPersonaliza {
-  width: 30%;
-  height: 500px;
+  padding: 0;
 }
 .imagenesPersonaliza .contenedorLetrasDos {
   background-color: #fad4e4;
+}
+.imagenesPersonaliza .contenedorLetrasDos .nosotrasLoHacemos {
+  margin-top: 10%;
 }
 .containerContacto {
   font-family: "Poiret One", cursive;
@@ -506,9 +488,12 @@ fieldset .formularioContacto select {
   font-family: "Poiret One", cursive;
   height: 60%;
   margin-bottom: 200px;
-  background-color: #c0f0f3;
 }
-.seleccionColor .definicionColor {
+.seleccionColor .fondoDefinicionColor {
+  background-color: #c0f0f3;
+  padding: 0;
+}
+.seleccionColor .fondoDefinicionColor .definicionColor {
   font-family: "Poiret One", cursive;
   font-weight: bolder;
   font-size: 20px;
@@ -517,20 +502,19 @@ fieldset .formularioContacto select {
   text-transform: uppercase;
   color: #b4b0ab;
 }
-.seleccionColor button {
+.seleccionColor .fondoDefinicionColor button {
   font-size: 16px;
   font-weight: bolder;
   margin-bottom: 20px;
   color: #b4b0ab;
   margin-left: 40%;
 }
-.seleccionColor .imagenAgranda {
+.seleccionColor .fondoDefinicionColor .imagenAgranda {
   width: 100%;
   height: 100%;
-  padding-left: 10;
-  margin: 0;
+  padding: 0;
 }
-.seleccionColor .imagenAgranda :hover {
+.seleccionColor .fondoDefinicionColor .imagenAgranda :hover {
   transform: scale(1.5);
 }
 
