@@ -119,50 +119,49 @@
 .containerFooter {
   font-family: "Poiret One", cursive;
   background-image: linear-gradient(white, #ddc3ad);
-  /* border: 2px; */
   margin-top: 100px;
-  /* padding: 5px; */
-  /* margin:3px ; */
 }
 .containerFooter .tituloContacto {
   font-weight: bolder;
   text-transform: uppercase;
   font-size: 30px;
   color: #6b6155;
-  /* margin-top: 30px; 
-  /*  margin-bottom: 15px; */
   letter-spacing: 3px;
   word-spacing: 4px;
-  /* padding: 10px; */
   padding-bottom: 5px;
   text-align-last: center;
 }
 .containerFooter ul {
   list-style-type: none;
 }
-.containerFooter ul li {
+.containerFooter ul .contacto {
   font-size: 17px;
   font-weight: bold;
   color: #6d675b;
   text-align-last: left;
   margin-top: 5px;
 }
-.containerFooter ul li a {
+.containerFooter ul .contacto a {
   color: #6d675b;
   text-decoration: none;
 }
-.containerFooter ul li .enlacesContacto {
+.containerFooter ul .contacto .enlacesContacto {
   margin: 0px;
   margin-top: 5px;
 }
+.containerFooter ul .mapaDeSitio {
+  font-family: "Syncopate", sans-serif;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.containerFooter ul .mapaDeSitio a {
+  color: #b8a890;
+  text-decoration: none;
+}
 .containerFooter .comerciosAdheridos {
-  /*   padding: 20px; */
-  /* background-color: $fondo3; */
-  /*  margin-top: 100px; */
   margin-bottom: 10px;
-  /* ul{
-   /*  list-style:outside; */
-  /* list-style-position: inside; */
 }
 .containerFooter .comerciosAdheridos .comerciosAdheridosTitulo {
   font-family: "Poiret One", cursive;
@@ -189,7 +188,7 @@
   width: 100%;
 }
 
-h2 {
+h1 {
   font-family: "Syncopate", sans-serif;
   font-weight: bolder;
   font-size: 28px;
@@ -220,7 +219,7 @@ h2 {
   text-align: end;
   color: white;
   text-transform: uppercase;
-  font-size: 100%;
+  font-size: 200%;
   font-weight: 900;
 }
 #nosotros #imagenAcercaDe1 {
@@ -340,7 +339,9 @@ h2 {
   font-family: "Syncopate", sans-serif;
   letter-spacing: 15px;
   padding: 40px;
+  text-align: center;
   margin-bottom: 10%;
+  color: #b8a890;
 }
 
 .formularioPersonaliza {
@@ -557,6 +558,52 @@ fieldset .formularioContacto select {
 }
 .divEnlaceInicio .enlacePersonaliza :hover {
   color: #bfd3d3;
+}
+
+.mapa {
+  font-size: 200%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #b8a890;
+  margin-bottom: 2%;
+}
+
+.mapaSitio {
+  width: 100%;
+}
+.mapaSitio .mapaHome, .mapaSitio .mapaContacto, .mapaSitio .mapaPersonaliza, .mapaSitio .mapaProductos, .mapaSitio .mapaAcercaDe {
+  text-align: center;
+  background-color: #c0f0f3;
+  padding-bottom: 30px;
+}
+.mapaSitio .mapaHome .tituloMapa, .mapaSitio .mapaContacto .tituloMapa, .mapaSitio .mapaPersonaliza .tituloMapa, .mapaSitio .mapaProductos .tituloMapa, .mapaSitio .mapaAcercaDe .tituloMapa {
+  font-family: "Syncopate", sans-serif;
+  font-size: 25px;
+  color: #b8a890;
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+.mapaSitio .mapaHome .aMapa, .mapaSitio .mapaContacto .aMapa, .mapaSitio .mapaContacto a, .mapaSitio .mapaPersonaliza .aMapa, .mapaSitio .mapaPersonaliza a, .mapaSitio .mapaProductos .aMapa, .mapaSitio .mapaProductos a, .mapaSitio .mapaAcercaDe .aMapa, .mapaSitio .mapaAcercaDe a {
+  font-family: "Poiret One", cursive;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #b4b0ab;
+  margin-top: 1%;
+}
+.mapaSitio .mapaAcercaDe {
+  background-color: #fad4e4;
+}
+.mapaSitio .mapaProductos {
+  background-color: #aff8d6;
+}
+.mapaSitio .mapaPersonaliza {
+  background-color: #c0f0f3;
+}
+.mapaSitio .mapaContacto {
+  background-color: #fad4e4;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=destino.css.map */

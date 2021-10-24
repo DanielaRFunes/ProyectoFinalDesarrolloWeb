@@ -1,0 +1,83 @@
+@import "_variables.scss";
+
+.mapa{
+    font-size: 200%;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-titulo;
+    margin-bottom: 2%;
+
+}
+
+.mapaSitio{
+    width: 100%;
+
+
+    .mapaHome{
+        text-align:center;
+        background-color: $fondo1;
+        padding-bottom: 30px;
+
+        .tituloMapa{
+            font-family: 'Syncopate', sans-serif;
+            font-size: 25px;
+            color: $color-titulo;
+            text-transform: uppercase;
+            margin-top: 4%;
+            margin-bottom: 2%;
+        }
+    
+        .aMapa{
+            font-family:'Poiret One', cursive;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bolder;
+            color: $colorfuente-parrafo;
+            margin-top: 1%;
+
+    }
+
+}
+
+
+.mapaAcercaDe{
+    @extend .mapaHome;
+ background-color:$fondo2;
+
+ a{
+     @extend .aMapa;
+ }
+
+}
+
+.mapaProductos{
+    @extend .mapaHome;
+ background-color:$fondo3;
+
+ a{
+    @extend .aMapa;
+}
+}
+
+.mapaPersonaliza{
+    @extend .mapaHome;
+background-color: $fondo1;
+
+a{
+    @extend .aMapa;
+}
+}
+
+
+
+.mapaContacto{
+    @extend .mapaHome;
+background-color: $fondo2;
+margin-bottom: 50px; 
+
+a{
+    @extend .aMapa;
+}
+
+}
+}
