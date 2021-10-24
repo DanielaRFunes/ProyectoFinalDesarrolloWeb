@@ -16,28 +16,34 @@
 
         #nosotros{
             color: $colorfuente-parrafo;
+            margin-top: 150px;
+            margin: 5%;
+            width: 100%;
             padding-top: 50px;
             padding-bottom: 100px;
             font-family:'Poiret One', cursive;
 
             #titulo{
-                font-family:'Poiret One', cursive;
+                font-family: 'Syncopate', sans-serif;
+                letter-spacing: 5px;
                 background-color: $fondo3;
                  padding: 10%;
                  margin: 0;
                  text-align:end;
                  color: rgb(255, 255, 255);
                  text-transform:uppercase;
-                 font-size: 250%; 
+                 font-size: 100%; 
                  font-weight: 900;
              }
 
             #imagenAcercaDe1{
                 padding: 0;
+            
             }
             
             #imagenAcercaDe2{
-           padding: 0;
+            padding: 0; 
+          
             } 
             
             #acercaDe{
@@ -48,7 +54,7 @@
             p{
                text-align: center;
                margin: 60px;
-               font-size: 100%;
+               font-size: 150%;
                line-height: 30px; 
                font-family:'Poiret One', cursive;
                font-weight: bold;

@@ -6,26 +6,34 @@
     margin-top: 0px ;
 }
 
+
+.formularioPersonaliza{
+    background-color: $fondo2;
+    
+    width: 600px;
+
+    .rowPersonaliza{
+        transform: translate(-10px,-10px);
+  
+    
+
+    .imagenFormularioPersonaliza{
+        padding: 0;
+    }
+
 form{  
     font-family:'Poiret One', cursive;
     font-weight: bolder;
     color: rgb(100, 85, 71); 
-    background-image:linear-gradient(rgb(192, 240, 243),rgb(243, 230, 212));
-    border: 3px;
-    width: 85%;
-    height: 700px;
-    padding: 40px;
-    margin-left: 100px;  
-    margin-bottom: 50px;
-    margin-top: 70px;
-    border-top-left-radius: 110px;
-    border-bottom-right-radius: 110px;
-    text-align: left;
+    background-image:linear-gradient(rgb(192, 240, 243),rgb(243, 230, 212)); 
+    height: 100%;
+    padding: 0px; 
+    text-align: center;
 
     h5{
         font-family:'Poiret One', cursive;
-        margin-top: 40px;
-        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-bottom: 40px;
         font-weight: bolder;
         margin: 40px;
        
@@ -35,37 +43,44 @@ form{
             color: rgb(218, 143, 143);
             text-decoration: none;
             font-size: 30px;
+
+          /*   :hover{
+                color: azure;
+            } */
         }
     }
 
+   
         label{
             display:block;
             color: rgb(68, 173, 192); 
             font-size: 20px;
-            margin-top: 20px;
-            margin-bottom: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+         
 
             .personalizaProducto{ 
                 margin-top: 35px; 
             }  
             
         }  
+        button{
+            margin-bottom: 25px;
+        }
             
 }
-
+}
+}
 
 .imagenesPersonaliza{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    height: 500px;
-    margin: 20px;
+    height: 10%;
+    width: 100%;
+     margin: 20px; 
     margin-bottom: 80px;
     margin-top: 150px;
   
  
     .contenedorLetras{
-       display: inline;
        width: 20%;
        height: 500px;
        margin-top: 0; 
@@ -74,27 +89,27 @@ form{
  
  
      .vosElegis{
-         font-size: 40px;
+         font-size: 200%;
          font-family: $fuente-titulo;
          text-transform: uppercase;
          color:$color-titulo;
          line-height: 80px;
          align-items: flex-end;
          text-align: center;
-         padding-left: 20px;
-         padding-right: 20px;
+         padding-left: 5%;
+         padding-right: 5%;
          margin-top: 40%;
          
   
      }
     }
- 
+    
  
     
     .imagenUnoPersonaliza{
-        display: inline;
-        width: 33%;
+        width: 30%;
         height: 500px;
+    
        
     }
  
@@ -116,7 +131,6 @@ form{
       
     }
  }
- 
 
 
 

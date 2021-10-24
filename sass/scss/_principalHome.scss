@@ -1,17 +1,19 @@
 @import "_variables.scss";
 
 #carouselExampleDark{
-    text-transform: uppercase; 
-    font-family:'Poiret One', cursive;
-    
+   text-transform: uppercase; 
+  font-family: 'Syncopate', sans-serif;
+  margin: 0;
+  border: 50px solid white;  
+
    
 
     .tituloFotos{
-        font-size: 80px;
-        color: rgb(240, 229, 218);
-        text-align: end;
-        font-weight: bolder;
-        animation-duration: 5s;
+        font-size: 90px;
+        color: white;
+        letter-spacing: 50px;
+        margin-bottom: 200px;
+        animation-duration: 7s;
         animation-name: animacion;
 
         @keyframes animacion {
@@ -19,13 +21,13 @@
                 opacity: 0;
             }
             50%{
-                opacity: 3;
-            }
-            75%{
                 opacity: 4;
             }
+            75%{
+                opacity: 6;
+            }
             100%{
-                opacity: 5;
+                opacity: 7;
             }
         }
            
@@ -33,17 +35,17 @@
   
     .textoFotos{
         font-size: 28px;
-        color: rgb(240, 229, 218);
-        text-align: end;
-        font-weight: bolder;   
+        color: white;
+        letter-spacing: 4px; 
+        margin-bottom: 20px;
     }
 
     .textoFotos2{
         font-size: 25px;
-        color: rgb(240, 229, 218);
-        text-align: end;
-        margin-bottom: 40px;
+        color: rgb(71, 69, 67);
+        margin-bottom: 80px;
         font-weight: bolder;
+        text-align: right;
     }
  
 }
@@ -54,45 +56,60 @@
 
 
 #principal{
-    background-color: rgb(175, 248, 214);
-    height: 100%;
-    width: 90%;
-    margin: 80px;
-    margin-left: 70px;
+    margin-top: 300px;
+    background-color:$fondo3 ;
+   
+
+
 
     
 #videoInicio{
-    background-color: rgb(175, 248, 214);
-    padding-top: 100px;
-    height: 100%;
-    width: 90%;
-    margin: 80px;
-    margin-left: 90px;
-
+    margin-top: 100px;
+    margin-bottom: 100px;
+ 
     
+   
 video{
-    height: 85%;
-    width: 100%;   
+    transform: translate(-40px,-110px);
 }
+ 
+#textoVideo{ 
+    background-color: rgb(175, 248, 214); 
+  
 
 
 .tituloVideo{
-    margin-top:20px; 
+    margin-top:60px; 
+    margin-left: 30px;
+    margin-right: 30px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
     text-transform: uppercase;
     font-family:'Poiret One', cursive;
     color:rgb(184, 168, 144);
     font-weight: bolder;
-}
-
+} 
+} 
+ 
 .parrafoVideo{
-    margin-top:10px; 
+    margin-top:50px; 
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
     font-family:'Poiret One', cursive;
     color: $colorfuente-parrafo;
     font-weight: bolder;
+    font-size: 20px;
+}
+
+.parrafoVideo3{
+    @extend .parrafoVideo;
+    margin-bottom: 50px;
 }
 } 
-
 }
+
+
 
 
 

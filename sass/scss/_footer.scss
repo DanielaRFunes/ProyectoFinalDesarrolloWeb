@@ -1,25 +1,27 @@
+@import "_variables.scss";
 
-footer{
+.containerFooter{
     font-family:'Poiret One', cursive;
-    font-style:unset;
-    background-color: rgb(224, 203, 183);
-    border: 2px;
-    margin-top: 30px;
-    border-radius: 10px; 
-    padding: 5px;
-    margin:3px ;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(221, 195, 173));
+    /* border: 2px; */
+    margin-top: 100px;
+    /* padding: 5px; */
+    /* margin:3px ; */
 
-    h3{ 
+    
+    
+
+    .tituloContacto{ 
         font-weight: bolder;
         text-transform: uppercase;
-        font-size: 20px; 
+        font-size: 30px; 
         color: rgb(107, 97, 85);
-        margin-top: 30px; 
-        margin-left: 30px; 
-        margin-bottom: 15px;
+        /* margin-top: 30px; 
+       /*  margin-bottom: 15px; */
         letter-spacing: 3px;
         word-spacing: 4px;
-        padding: 30px;
+        /* padding: 10px; */
+        padding-bottom: 5px;
         text-align-last: center;
     }
 
@@ -45,7 +47,57 @@ footer{
         }
     }
 
-}
+.comerciosAdheridos{
+        /*   padding: 20px; */
+          /* background-color: $fondo3; */
+         /*  margin-top: 100px; */
+          margin-bottom: 10px;
+
+          /* ul{
+           /*  list-style:outside; */
+            /* list-style-position: inside; */ 
+
+
+            .comerciosAdheridosTitulo{
+                font-family: 'Poiret One', cursive;
+                font-size: 21px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                color: $color-titulo;
+                text-transform: uppercase;
+        
+            }
+
+            li{
+                font-family: $fuente-titulo;
+                font-size: 18px;
+                color:rgb(109, 103, 91);
+                font-weight: bolder;
+               
+                  
+            }   
+        }
+       
+
+        .ubicacion{
+            font-family: 'Poiret One', cursive;
+            font-size: 21px;
+            color: $color-titulo;
+            text-transform: uppercase;
+        }
+
+
+        iframe{
+            margin-bottom: 15px;
+            width: 100%;
+        }
+      }
+ 
+
+
+
+
+
 
 
 

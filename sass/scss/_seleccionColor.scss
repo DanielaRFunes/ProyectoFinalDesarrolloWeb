@@ -1,92 +1,70 @@
 @import "_variables";
 
-   .seleccionColor{
-    padding: 20px;
-    background-color: rgb(192, 240, 243);
-    border-top-left-radius: 110px;
-    border-bottom-right-radius: 110px;
-    margin: 80px;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-family:'Poiret One', cursive;
-    color:rgb(184, 168, 144);
 
-        main{
-        text-align: center;
+.seleccionColor{
+    font-family:'Poiret One', cursive;
+    height: 60%;
+    margin-bottom: 200px;
+    background-color: $fondo1;
+    
+    
+
+    
+        
+        
+    
+
+    .definicionColor{
         font-family:'Poiret One', cursive;
-        color:rgb(184, 168, 144); 
+        font-weight: bolder;
+        font-size: 20px;
+        margin-top: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $colorfuente-parrafo;
+    }
+
+    button{
+        font-size: 16px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+        color: $colorfuente-parrafo;
+        margin-left: 40%;
+
+} 
+
+
+
+       
 
         .imagenAgranda{
-            margin-left: 100px;
-            margin-right: 100px;
-            margin: 70px;
-            border-radius: 40px;
+            width: 100%;
+            height: 100%;
             
-            .imagenAgranda:hover{
+            padding-left: 10;
+    
+            margin: 0;
+        
+           
+           
+            
+              :hover{
                 transform: scale(1.5);
             }
         }
-        
-       
-
-       .negrita{
-        font-weight: bolder;
-        font-size: 20px;
     }
 
-    details{
-        font-size: 16px;
-        font-weight: bolder;
-        color: $colorfuente-parrafo;
-        margin-left: 110px;
-        margin-bottom: 25px;
-
-        .detallesUno{
-            margin-top: 20px;
-            margin-left: 480px;
-            width: 200px;
-            height: 60px;
-            transition: 3s;
-
-            :hover{
-                width: 400px;
-                height: 100px;
-                background-color:rgb(212, 184, 203) ;
-            }
-        }
-
-        .detallesDos{
-            margin-top: 20px;
-            margin-left: 480px;
-            width: 200px;
-            height: 60px;
-            transition: 3s;
-
-            :hover{
-                width: 400px;
-                height: 100px;
-                background-color:rgb(212, 184, 203) ;
-            }
-        }
-
         
-   .detallesTres{
-    margin-top: 20px;
-    margin-left: 480px;
-    width: 200px;
-    height: 60px;
-    transition: 3s;
+      
 
-    :hover{
-        width: 400px;
-        height: 100px;
-        background-color:rgb(212, 184, 203) ;
-    }
-}
-        }
-}
-} 
+    
+
+    
+
+
+
+
+
 
    
    
